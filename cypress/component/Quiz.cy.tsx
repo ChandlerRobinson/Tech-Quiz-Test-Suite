@@ -1,4 +1,3 @@
-import React from 'react';
 import { mount } from '@cypress/react18'; // React 18-compatible adapter
 import Quiz from '../../client/src/components/Quiz'; // Adjust based on your project structure
 

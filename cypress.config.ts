@@ -2,7 +2,7 @@ import { defineConfig } from "cypress";
 
 export default defineConfig({
   e2e: {
-    baseUrl: "http://localhost:3000", // Adjust to match your app's dev server URL
+    baseUrl: "http://localhost:3001", // Adjust to match your app's dev server URL
     supportFile: "cypress/support/e2e.ts", // Ensure this file exists
   },
   component: {
